@@ -1,0 +1,51 @@
+# packages in environment at /home/vcirik/bin/anaconda2/envs/server2:
+#
+# Name                    Version                   Build  Channel
+backports                 1.0                      py27_1  
+backports.shutil_get_terminal_size 1.0.0                    py27_2  
+ca-certificates           2019.1.23                     0  
+certifi                   2019.3.9                 py27_0  
+chardet                   3.0.4                    pypi_0    pypi
+decorator                 4.4.0                      py_0  
+django                    1.11.20                  pypi_0    pypi
+django-cors-headers       2.4.0                    pypi_0    pypi
+django-rest-auth          0.9.5                    pypi_0    pypi
+django-sslserver          0.20                     pypi_0    pypi
+djangorestframework       3.4.7                    pypi_0    pypi
+enum34                    1.1.6                    py27_1  
+httpie                    1.0.2                    pypi_0    pypi
+idna                      2.8                      pypi_0    pypi
+ipython                   5.8.0                    py27_0  
+ipython_genutils          0.2.0            py27h89fb69b_0  
+libedit                   3.1.20170329         h6b74fdf_2  
+libffi                    3.2.1                hd88cf55_4  
+libgcc-ng                 8.2.0                hdf63c60_1  
+libstdcxx-ng              8.2.0                hdf63c60_1  
+ncurses                   6.1                  he6710b0_1  
+openssl                   1.1.1b               h7b6447c_1  
+pathlib2                  2.3.3                    py27_0  
+pexpect                   4.6.0                    py27_0  
+pickleshare               0.7.5                    py27_0  
+pip                       18.1                     py27_0  
+prompt_toolkit            1.0.15                   py27_0  
+ptyprocess                0.6.0                    py27_0  
+py                        1.7.0                    pypi_0    pypi
+pygments                  2.3.1                    pypi_0    pypi
+pytest                    3.0.6                    pypi_0    pypi
+pytest-django             3.1.2                    pypi_0    pypi
+python                    2.7.15               h9bab390_6  
+pytz                      2018.9                   pypi_0    pypi
+readline                  7.0                  h7b6447c_5  
+requests                  2.21.0                   pypi_0    pypi
+scandir                   1.10.0           py27h7b6447c_0  
+setuptools                40.6.3                   py27_0  
+simplegeneric             0.8.1                    py27_2  
+six                       1.12.0                   py27_0  
+sqlite                    3.26.0               h7b6447c_0  
+tk                        8.6.8                hbc83047_0  
+traitlets                 4.3.2                    py27_0  
+urllib3                   1.24.1                   pypi_0    pypi
+uwsgi                     2.0.18                   pypi_0    pypi
+wcwidth                   0.1.7                    py27_0  
+wheel                     0.32.3                   py27_0  
+zlib                      1.2.11               h7b6447c_3  

@@ -1,0 +1,14 @@
+uwsgi --ini /etc/uwsgi/sites/refer360.ini
+sudo chown www-data:www-data /var/uwsgi/refer360annotation.sock
+ python manage.py runsslserver 0.0.0.0:9002  --certificate /home/vcirik/download-essentials/cert/vulcan_multicomp_cs_cmu_edu_cert.cer --key /home/vcirik/download-essentials/cert/ssl/key.pem
+rm -rf catalog/migrations/0002_* db.sqlite3 catalog/migrations/*.pyc ;python manage.py makemigrations catalog; python manage.py migrate
+http --verify=no --cert=/home/vcirik/download-essentials/cert/vulcan_multicomp_cs_cmu_edu_cert.cer --cert-key=/home/vcirik/download-essentials/cert/ssl/key.pem https://vulcan.multicomp.cs.cmu.edu:9001/annotations/ > TEST.json
+./manage.py dbshell
+.table
+alter table catalog_actions add column ann_clr varchar default 'C';
+.quit
+uwsgi --ini /etc/uwsgi/sites/refer360.ini
+./manage.py migrate
+./manage.py makemigrations
+uwsgi --ini refer360.ini
+uwsgi --ini refer360.ini --enable-threads

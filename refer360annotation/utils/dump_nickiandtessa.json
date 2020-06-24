@@ -1,0 +1,46 @@
+[
+    {
+        "date": "2019-03-22T13:27:46.149853Z",
+        "turkerid": "tessas",
+        "refexp": "|||turn and face the mural on the wall|||there are a sequence of blue columns|||look to the pillar that intersects with the tent below it|||find Waldo on top of this tent",
+        "imageurl": "https://s3.amazonaws.com/refer360javascript/pano_test/pano_adrbvujzkxkfsq.jpg",
+        "annotationid": 11,
+        "longitude": 0.4307821951102707,
+        "feedback_text": "dZlXUNvRgxKvxititumlIuXkGODxJEOyIomihThwPdIqXniwjISMrMnxIbxiUPiFiQVyNwPOqdVfchbBcDXQBxfvQNZspjtQgcIJ",
+        "actions": [],
+        "latitude": -0.1485414259046586
+    },
+    {
+        "date": "2019-03-22T13:28:45.627908Z",
+        "turkerid": "tessas",
+        "refexp": "|||Turn until you see an exercise bike directly in front of you|||At the top of this bike, you will find Waldo",
+        "imageurl": "https://s3.amazonaws.com/refer360javascript/pano_test/pano_aawdbuzwzzrawh.jpg",
+        "annotationid": 12,
+        "longitude": 0.7083513352486686,
+        "feedback_text": "dZlXUNvRgxKvxititumlIuXkGODxJEOyIomihThwPdIqXniwjISMrMnxIbxiUPiFiQVyNwPOqdVfchbBcDXQBxfvQNZspjtQgcIJ",
+        "actions": [],
+        "latitude": -0.2264071567015508
+    },
+    {
+        "date": "2019-03-22T13:29:50.360594Z",
+        "turkerid": "tessas",
+        "refexp": "|||Find the short table behind the two doctors|||on the short table are rectangular objects|||Find Waldo on the object to the far left of the table",
+        "imageurl": "https://s3.amazonaws.com/refer360javascript/pano_test/pano_azqpvcqkquhudq.jpg",
+        "annotationid": 13,
+        "longitude": 4.065897532470978,
+        "feedback_text": "dZlXUNvRgxKvxititumlIuXkGODxJEOyIomihThwPdIqXniwjISMrMnxIbxiUPiFiQVyNwPOqdVfchbBcDXQBxfvQNZspjtQgcIJ",
+        "actions": [],
+        "latitude": -0.7027552972807375
+    },
+    {
+        "date": "2019-03-22T13:30:46.661221Z",
+        "turkerid": "tessas",
+        "refexp": "|||Look around until you see a banner hanging in front of you|||On the banner you will see two people kissing|||Find Waldo between the couple kissing",
+        "imageurl": "https://s3.amazonaws.com/refer360javascript/pano_test/pano_acbzqsuaxwftyh.jpg",
+        "annotationid": 14,
+        "longitude": 6.156161990817374,
+        "feedback_text": "dZlXUNvRgxKvxititumlIuXkGODxJEOyIomihThwPdIqXniwjISMrMnxIbxiUPiFiQVyNwPOqdVfchbBcDXQBxfvQNZspjtQgcIJ",
+        "actions": [],
+        "latitude": 0.06985881971854599
+    }
+]
